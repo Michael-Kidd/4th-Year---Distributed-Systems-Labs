@@ -1,6 +1,8 @@
 package ie.gmit.sw.ds;
 
 import java.io.IOException;
+import java.io.ObjectOutputStream;
+import java.io.OutputStream;
 import java.net.InetSocketAddress;
 import java.net.Socket;
 import java.net.SocketAddress;
@@ -20,6 +22,14 @@ public class ClientRunner {
 	      socket.connect(socketAddress);
 	      
 	      System.out.println("Connected to Server");
+	      
+	      OutputStream out = socket.getOutputStream();
+	      
+	      ObjectOutputStream oout = new ObjectOutputStream(out);
+	      
+	      oout.writeObject("xml");
+	      
+	      oout.close();
 
 	      socket.close();
 	      
