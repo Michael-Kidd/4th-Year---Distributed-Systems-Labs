@@ -16,7 +16,7 @@ public class ServerRunner {
 
 	    	  Socket socket = serverSocket.accept();
 
-	          System.out.println("A client has connected.");
+	    	  System.out.println("A client has connected.");
 
 	          socket.close();
 

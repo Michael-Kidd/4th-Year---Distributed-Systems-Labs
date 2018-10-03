@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/Users/G00236920/Desktop/Week 3/lib/eclipselink.jar"/>
+	<classpathentry kind="lib" path="C:/Users/G00236920/Desktop/Week 3/lib/javax.json-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/G00236920/Desktop/Week 3/lib/javax.json-api_1.1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/G00236920/Desktop/Week 3/lib/javax.xml.bind_2.2.12.v201410011542.jar"/>
+	<classpathentry kind="lib" path="C:/Users/G00236920/Desktop/Week 3/lib/jaxb-core_2.2.11.v201407311112.jar"/>
+	<classpathentry kind="lib" path="C:/Users/G00236920/Desktop/Week 3/lib/jaxb-xjc_2.2.11.v201407311112.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

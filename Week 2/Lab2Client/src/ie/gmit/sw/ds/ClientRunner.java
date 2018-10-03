@@ -14,6 +14,7 @@ public class ClientRunner {
 	      Socket socket = null;
 	      
 	      SocketAddress socketAddress = new InetSocketAddress("127.0.0.1", 5000);
+	      
 	      socket = new Socket();
 
 	      socket.connect(socketAddress);
